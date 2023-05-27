@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file MP3.cu...
+  
+  c:\Users\18mgp5\documents\visual studio 2015\Projects\MP3\MP3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\MP3.cu.obj "c:\Users\18mgp5\documents\visual studio 2015\Projects\MP3\MP3\MP3.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  MP3.cu
+c:/Users/18mgp5/documents/visual studio 2015/Projects/MP3/MP3/MP3.cu(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MP3.vcxproj -> c:\Users\18mgp5\documents\visual studio 2015\Projects\MP3\Debug\MP3.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "c:\Users\18mgp5\documents\visual studio 2015\Projects\MP3\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
